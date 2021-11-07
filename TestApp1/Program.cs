@@ -30,8 +30,8 @@ namespace TestApp1
            
             Console.WriteLine("Значение {0} члена прогресии с разностью {0} равно {1}", aProgr.Num, aProgr.val);
         
-            aProgr.reset();
-            Console.WriteLine("Значение после сброса на начальные значения равно {0}",aProgr.val); 
+            //aProgr.reset();
+            //Console.WriteLine("Значение после сброса на начальные значения равно {0}",aProgr.val); 
             Console.WriteLine();
 
             GeomProgression gProgr = new GeomProgression();//Создаем экземпляр класса
@@ -44,8 +44,8 @@ namespace TestApp1
             }
           
             Console.WriteLine("Значение {0} члена прогресии со знаменателем {0} равно {1}", gProgr.Num, gProgr.val);
-            gProgr.reset();
-            Console.WriteLine("Значение после сброса на начальные значения равно {0}",gProgr.val);
+            //gProgr.reset();
+            //Console.WriteLine("Значение после сброса на начальные значения равно {0}",gProgr.val);
             Console.ReadKey();
         }
     }
